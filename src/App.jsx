@@ -6,7 +6,7 @@ import Jobs from "./components/Jobs";
 function App() {
   return (
     <>
-      <Header name="The Job Board"></Header>
+      <Header name="The Job Board" className="container"></Header>
       <main>
         <Jobs className="container"></Jobs>
       </main>

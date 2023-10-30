@@ -15,11 +15,10 @@ header h1 {
 
 main {
   height: 1306px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .container {
-  width: 1020;
   height: 1020px;
   margin: 62px auto;
   display: flex;

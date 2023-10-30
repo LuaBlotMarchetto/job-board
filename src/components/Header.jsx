@@ -3,7 +3,7 @@ import Title from "./Title";
 const Header = (props) => {
   return (
     <header>
-      <Title name={props.name}></Title>
+      <Title name={props.name} className={props.className}></Title>
     </header>
   );
 };
