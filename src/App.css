@@ -15,14 +15,15 @@ header h1 {
 
 main {
   height: 1306px;
-  max-width: 1440px;
+  justify-content: center;
 }
 
 .container {
   height: 1020px;
-  margin: 62px auto;
+  max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
+  margin: 62px auto;
   justify-content: center;
   gap: 60px;
 }
